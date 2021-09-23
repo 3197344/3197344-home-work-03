@@ -17,6 +17,25 @@
   --second-bg-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -29,7 +48,32 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* -------------site-nav -------------------*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+
+  /* position: absolute; */
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-logo {
   color: #000000;
   font-family: Raleway, sans-serif;
@@ -122,6 +166,16 @@ body {
 }
 
 /* -------------Особенности------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 .feature-title {
   color: var(--title-text-color);
   font-weight: bold;
