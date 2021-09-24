@@ -53,9 +53,8 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  /* background-color: tomato; */
+ 
+    /* background-color: tomato; */
   align-items: center;
   
 }
@@ -156,22 +155,39 @@ padding-bottom: 32px;
 
 /* -----------------Герой-------------------- */
 .hero {
+  margin: 0 auto;
   background-color: var(--accent-bg-color);
+  text-align: center;
+  width: 1200px;
+  height: 600px;
+padding-top: 200px;
+align-items: center;
+
 }
 
 .hero-title {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
   color: var(--second-accent-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+ 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
 }
 
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
 }
 
 .button.primary {
@@ -185,6 +201,7 @@ padding-bottom: 32px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .button.primary:hover,
