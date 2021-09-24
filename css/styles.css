@@ -64,12 +64,13 @@ body {
 }
 
 .header-nav {
-  display: flex;
-  width: 300px;
+  /* display: flex; */
+  /* width: 300px; */
   /* outline: 2px solid teal; */
 }
 
 .header-logo {
+  display: flex;
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -92,15 +93,21 @@ body {
   letter-spacing: 0.03em;
 }
 .header-nav .link {
+  text-decoration: none;
+}
+.header-nav {
   display: flex;
   text-decoration: none;
   outline: 2px solid rgb(255, 255, 255);
   margin-right: 50px;
 }
+.header-nav :last-child{
+  margin-right: 0;
+}
 
 .header-navigation {
-  /* display: flex; */
-  /* outline: 2px solid rgb(3, 248, 15); */
+  display: flex;
+  outline: 2px solid rgb(248, 170, 3);
 }
 
 .header-nav .link:hover,
@@ -118,6 +125,8 @@ body {
 
 .auth-nav {
   display: flex;
+  outline: 2px solid rgb(173, 14, 125);
+  margin-right: 50px;
 }
 
 .section-title {
@@ -130,6 +139,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
 }
 .header-address {
   color: var(--primary-text-color);
