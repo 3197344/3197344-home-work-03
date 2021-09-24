@@ -49,42 +49,35 @@ body {
 }
 
 /* -------------site-nav -------------------*/
-/* .header-container {
+ .container{
   display: flex;
-  align-items: center;
-} */
-
-.container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: tomato;
-  display: flex;
-}
-
-.header-nav {
-  /* display: flex; */
-  /* width: 300px; */
-  /* outline: 2px solid teal; */
+  /* background-color: tomato; */
+  align-items: center;
+  
 }
 
 .header-logo {
   display: flex;
+  width: 145px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  outline: 2px solid rgb(3, 248, 15);
+  margin-right: 90px;
+
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  width: 145px;
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
-  outline: 2px solid rgb(3, 248, 15);
-  margin-right: 90px;
-}
+ }
 
 .logo {
+  
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -92,28 +85,40 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.header-nav .link {
-  text-decoration: none;
-}
+
+
 .header-nav {
   display: flex;
+  /* outline: 2px solid teal;  */
+}
+.header-nav .items{
+  /* display: flex; */
   text-decoration: none;
   outline: 2px solid rgb(255, 255, 255);
-  margin-right: 50px;
-}
-.header-nav :last-child{
-  margin-right: 0;
+  
 }
 
-.header-navigation {
-  display: flex;
-  outline: 2px solid rgb(248, 170, 3);
+.header-nav .items:not(:last-child){
+  margin-right: 50px;
 }
 
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: #2196f3;
 }
+.header-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 
 .auth-nav .link {
   text-decoration: none;
@@ -126,22 +131,22 @@ body {
 .auth-nav {
   display: flex;
   outline: 2px solid rgb(173, 14, 125);
-  margin-right: 50px;
+  margin-left: auto;
+}
+.auth-nav .items + .items {
+margin-left: 50px;
 }
 
 .section-title {
   color: var(--title-text-color);
 }
-.header-link {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 
-}
 .header-address {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+/* background-color: teal; */
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
