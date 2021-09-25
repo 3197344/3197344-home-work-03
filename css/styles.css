@@ -400,6 +400,52 @@ body {
 
 /* --------------Портфолио--------------- *
 /* ------------- Наши работы ----------*/
+.button-link{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 90px;
+
+}
+.button-item {
+  display: block;
+  height: 38px;
+  min-width: 29px;
+padding-top: 6px;
+margin-bottom: 50px;
+}
+
+.button-link .button-item + .button-item {
+  margin-left: 8px;
+
+}
+
+.button-item .button-secondary:hover,
+.button-item .button-secondary:focus {
+  color: var(--second-accent-color);
+  background-color: var(--accent-color);
+}
+
+.button-secondary{
+padding: 6px 22px;
+background-color: var(--first-bg-color);
+border-radius: 4px;
+}
+
+.button-item .button-secondary {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  background-color: var(--first-bg-color);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+ /*--------------- Projects--------------------------  */
+
 .project-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -413,21 +459,4 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-.button.secondary {
-  font-family: Roboto, sans-serif;
-  color: var(--title-text-color);
-  background-color: var(--first-bg-color);
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.button.secondary:hover,
-.button.secondary:focus {
-  color: var(--second-accent-color);
-  background-color: var(--accent-color);
 }

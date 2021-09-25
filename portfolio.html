@@ -14,44 +14,62 @@
 </head>
 
 <body>
-    <!-- Шапка сайта -->
+    <!-- site-nav -->
     <header>
-        <nav>
-            <a href="./index.html" class="header-logo list">
-                <span class="logo">Web</span>Studio</a>
-            <ul class="header-nav list">
-                <li> <a href="./index.html" class="header-link link">Студия</a></li>
-                <li> <a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                <li> <a href="" class="header-link link">Контакты</a></li>
+        <div class="container header-container">
+            <nav class="header-navigation">
+                <a href="./index.html" class="header-logo list">
+                    <span class="logo">Web</span>Studio</a>
+    
+                <ul class="header-nav list">
+                    <li class="items"> <a href="./index.html" class="header-link link">Студия</a></li>
+                    <li class="items"> <a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                    <li class="items"> <a href="" class="header-link link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="auth-nav list">
+                <li class="items"><a href="mailto:info@devstudio.com" class="header-address link">info@devstudio.com</a>
+                </li>
+                <li class="items"><a href="" class="header-address link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="auth-nav list">
-            <li><a href="mailto:info@devstudio.com" class="header-address link">info@devstudio.com</a></li>
-            <li><a href="" class="header-address link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
+
     <main>
         <!-- Портфолио -->
+        <!-- Наши работы -->
         <section>
-            <ul class="button list">
-                <li>
-                    <button type="button" class="button secondary">Все</button>
-                </li>
-                <li>
-                    <button type="button" class="button secondary">Веб-сайты</button>
-                </li>
-                <li>
-                    <button type="button" class="button secondary">Приложения</button>
-                </li>
-                <li>
-                    <button type="button" class="button secondary">Дизайн</button>
-                </li>
-                <li>
-                    <button type="button" class="button secondary">Маркетинг</button>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="button-link list">
+                    <li class="button-item">
+                        <button type="button" 
+                        class="button-secondary">Все</button>
+                    </li>
 
-            <h1 hidden>Наши работы</h1>
+                    <li  class="button-item">
+                        <button type="button" 
+                        class="button-secondary">Веб-сайты</button>
+                    </li>
+
+                    <li  class="button-item">
+                        <button type="button" 
+                        class="button-secondary">Приложения</button>
+                    </li>
+
+                    <li  class="button-item">
+                        <button type="button" 
+                        class="button-secondary">Дизайн</button>
+                    </li>
+
+                    <li  class="button-item">
+                        <button type="button" 
+                        class="button-secondary">Маркетинг</button>
+                    </li>
+                </ul>
+            </div>
+
+        <!-- Projects -->
+            <h1 class="visually-hidden">Наши работы</h1>
             <ul class="project list">
                 <li>
                     <img src="./img/project1.jpg" alt="изображение 3 карточек" width="370" height="294">
@@ -104,12 +122,20 @@
     </main>
     <!-- Футер (подвал) -->
     <footer class="footer-section">
-        <a href="./index.html" class="footer-logo"><span class="logo">Web</span>Studio</a>
-        <address class="about-address"> г. Киев, пр-т Леси Украинки, 26 </address>
-        <ul class="footer-nav list">
-            <li><a href="mailto:info@devstudio.com" class="footer-address link">info@devstudio.com</a></li>
-            <li><a href="" class="footer-address link">+38 096 111 11 11</a></li>
-        </ul>
+        <a href="./index.html" class="footer-logo">
+            <span class="logo">Web</span>Studio
+        </a>
+        <div class="footer-item">
+            <address class="about-address"> г. Киев, пр-т Леси Украинки, 26 </address>
+            <ul class="footer-nav list">
+                <li>
+                    <a href="mailto:info@devstudio.com" class="footer-address link">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="" class="footer-address link">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 
