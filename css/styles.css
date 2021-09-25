@@ -35,6 +35,8 @@ ul {
 
 img {
   display: block;
+  min-width: 100%;
+ 
 }
 
 body {
@@ -445,13 +447,31 @@ border-radius: 4px;
 }
 
  /*--------------- Projects--------------------------  */
+.project {
+  display: flex;
+  flex-wrap: wrap;
+width: 1200px;
+margin: 0 auto;
+align-items: center;
+
+
+}
+
+.project-section {
+  flex-basis: calc(100% / 3 - 30px);
+  
+}
+
 
 .project-title {
+  margin-bottom: 4px;
+  
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
 }
 .project-item {
   color: var(--primary-text-color);
@@ -459,4 +479,11 @@ border-radius: 4px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.project-jpg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
