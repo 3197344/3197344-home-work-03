@@ -36,7 +36,7 @@ ul {
 img {
   display: block;
   min-width: 100%;
- 
+  height: auto;
 }
 
 body {
@@ -96,8 +96,7 @@ body {
   /* outline: 2px solid teal;  */
 }
 .header-nav .items {
-  /* display: flex; */
-  text-decoration: none;
+   text-decoration: none;
   /* outline: 2px solid rgb(255, 255, 255); */
 }
 
@@ -349,12 +348,14 @@ body {
 .footer-section {
   background-color: var(--accent-bg-color);
   color: var(--second-accent-color);
+ margin: 0;
 }
 .footer-logo {
- display: flex;
+    outline: 2px solid rgb(245, 121, 5); 
+  display: flex;
   width: 145px;
   padding-top: 50px;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--second-accent-color);
   font-family: Raleway, sans-serif;
@@ -365,6 +366,7 @@ body {
   letter-spacing: 0.03em;
 }
 .footer-nav {
+    outline: 2px solid teal; 
   color: rgb(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -373,6 +375,7 @@ body {
 }
 
 .footer-address {
+    outline: 2px solid rgb(98, 0, 128); 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 400;
@@ -387,6 +390,7 @@ body {
 }
 
 .about-address {
+      outline: 2px solid rgb(2, 0, 128); 
   color: var(--second-accent-color);
   font-weight: 400;
   font-size: 14px;
@@ -395,30 +399,26 @@ body {
   font-style: normal;
 }
 .footer-item {
- 
- padding-bottom: 60px;
+  padding-bottom: 60px;
 }
-
 
 /* --------------Портфолио--------------- *
 /* ------------- Наши работы ----------*/
-.button-link{
+.button-link {
   display: flex;
   margin: 0 auto;
   margin-top: 90px;
-
 }
 .button-item {
   display: block;
   height: 38px;
   min-width: 29px;
-padding-top: 6px;
-margin-bottom: 50px;
+  padding-top: 6px;
+  margin-bottom: 50px;
 }
 
 .button-link .button-item + .button-item {
   margin-left: 8px;
-
 }
 
 .button-item .button-secondary:hover,
@@ -427,10 +427,10 @@ margin-bottom: 50px;
   background-color: var(--accent-color);
 }
 
-.button-secondary{
-padding: 6px 22px;
-background-color: var(--first-bg-color);
-border-radius: 4px;
+.button-secondary {
+  padding: 6px 22px;
+  background-color: var(--first-bg-color);
+  border-radius: 4px;
 }
 
 .button-item .button-secondary {
@@ -446,32 +446,35 @@ border-radius: 4px;
   letter-spacing: 0.03em;
 }
 
- /*--------------- Projects--------------------------  */
+/*--------------- Projects--------------------------  */
 .project {
   display: flex;
   flex-wrap: wrap;
-width: 1200px;
-margin: 0 auto;
-align-items: center;
-
-
+  padding: 0;
+  margin: 0 auto;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: 64px;
+  align-items: center;
+  /* outline: 2px solid rgb(3, 248, 15); */
+  /* margin-left: -30px; */
 }
 
 .project-section {
   flex-basis: calc(100% / 3 - 30px);
-  
+  margin-left: 30px;
+  margin-top: 30px;
+  /* outline: 2px solid rgb(168, 10, 89); */
 }
-
 
 .project-title {
   margin-bottom: 4px;
-  
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
 }
 .project-item {
   color: var(--primary-text-color);
@@ -482,8 +485,8 @@ align-items: center;
 }
 
 .project-jpg {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
