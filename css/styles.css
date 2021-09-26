@@ -294,6 +294,7 @@ body {
 }
 .command {
   display: flex;
+  margin-bottom: 94px;
   /* width: 270px; */
 }
 
@@ -313,7 +314,7 @@ body {
 
 .command-section {
   margin: 0 auto;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 .command .command-section + .command-section {
@@ -348,13 +349,24 @@ body {
 .footer-section {
   background-color: var(--accent-bg-color);
   color: var(--second-accent-color);
- margin: 0;
+ 
 }
+
+  .footer-list {
+ width: 1200px;
+
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  }
+
 .footer-logo {
-    outline: 2px solid rgb(245, 121, 5); 
   display: flex;
+    /* outline: 2px solid rgb(245, 121, 5);  */
+ padding-top: 60px;
   width: 145px;
-  padding-top: 50px;
+  
   margin-bottom: 20px;
 
   color: var(--second-accent-color);
@@ -365,8 +377,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.footer-set {
+  /* margin-top: 60px; */
+}
+
 .footer-nav {
-    outline: 2px solid teal; 
+
+    /* outline: 2px solid teal;  */
   color: rgb(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -375,31 +392,36 @@ body {
 }
 
 .footer-address {
-    outline: 2px solid rgb(98, 0, 128); 
+    /* outline: 2px solid rgb(98, 0, 128);  */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 60px;
 }
 
 .footer-nav .link:hover,
 .footer-nav .link:focus {
   color: #2196f3;
 }
-
+.mail {
+padding-bottom: 9px;
+}
 .about-address {
-      outline: 2px solid rgb(2, 0, 128); 
+      /* outline: 2px solid rgb(2, 0, 128);  */
   color: var(--second-accent-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
+  margin-bottom: 9px;
 }
 .footer-item {
   padding-bottom: 60px;
+ 
 }
 
 /* --------------Портфолио--------------- *
