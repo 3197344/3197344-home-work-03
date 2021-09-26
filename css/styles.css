@@ -62,7 +62,10 @@ body {
   /* background-color: tomato; */
   align-items: center;
 }
-
+.header-box {
+/* border: 1px #ECECEC; */
+outline: 1px solid #ECECEC;
+}
 .header-logo {
   display: flex;
   width: 145px;
@@ -486,7 +489,7 @@ padding-bottom: 9px;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  /* outline: 2px solid rgb(168, 10, 89); */
+  outline: 1px solid #EEEEEE;
 }
 
 .project-title {
