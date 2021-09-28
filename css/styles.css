@@ -63,8 +63,8 @@ body {
   align-items: center;
 }
 .header-box {
-/* border: 1px #ECECEC; */
-outline: 1px solid #ECECEC;
+  /* border: 1px #ECECEC; */
+  outline: 1px solid #ececec;
 }
 .header-logo {
   display: flex;
@@ -99,7 +99,7 @@ outline: 1px solid #ECECEC;
   /* outline: 2px solid teal;  */
 }
 .header-nav .items {
-   text-decoration: none;
+  text-decoration: none;
   /* outline: 2px solid rgb(255, 255, 255); */
 }
 
@@ -166,6 +166,7 @@ outline: 1px solid #ECECEC;
 
   height: 600px;
   padding-top: 200px;
+  padding-bottom: 200px;
   align-items: center;
 }
 
@@ -202,7 +203,7 @@ outline: 1px solid #ECECEC;
   height: 50px;
   align-items: center;
   text-align: center;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 
   font-family: Roboto, sans-serif;
   color: var(--second-accent-color);
@@ -230,12 +231,14 @@ outline: 1px solid #ECECEC;
   border: 0;
   clip: rect(0 0 0 0);
 }
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 .feature {
   display: flex;
   margin: 0 auto;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .feature .feature-item:not(:last-child) {
@@ -264,6 +267,7 @@ outline: 1px solid #ECECEC;
 .section {
   /* outline: 2px solid rgb(173, 14, 125); */
   background-color: var(--primary-bg-color);
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -278,7 +282,6 @@ outline: 1px solid #ECECEC;
 }
 .work {
   display: flex;
-  margin-bottom: 94px;
 }
 .work-img {
   margin: 0 auto;
@@ -292,7 +295,10 @@ outline: 1px solid #ECECEC;
 /* -----------------Наша команда----------------- */
 .our-command {
   background-color: var(--first-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 
+  /* margin-bottom: 50px; */
   /* outline: 2px solid rgb(27, 2, 138); */
 }
 .command {
@@ -303,8 +309,6 @@ outline: 1px solid #ECECEC;
 
 .command-item {
   margin: 0 auto;
-  margin-bottom: 50px;
-  padding-top: 94px;
 
   /* width: 376px; */
   color: var(--title-text-color);
@@ -352,24 +356,24 @@ outline: 1px solid #ECECEC;
 .footer-section {
   background-color: var(--accent-bg-color);
   color: var(--second-accent-color);
- 
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-  .footer-list {
- width: 1200px;
+.footer-list {
+  width: 1200px;
 
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  }
+}
 
 .footer-logo {
   display: flex;
-    /* outline: 2px solid rgb(245, 121, 5);  */
- padding-top: 60px;
+  /* outline: 2px solid rgb(245, 121, 5);  */
+
   width: 145px;
-  
+
   margin-bottom: 20px;
 
   color: var(--second-accent-color);
@@ -385,8 +389,7 @@ outline: 1px solid #ECECEC;
 }
 
 .footer-nav {
-
-    /* outline: 2px solid teal;  */
+  /* outline: 2px solid teal;  */
   color: rgb(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -395,7 +398,7 @@ outline: 1px solid #ECECEC;
 }
 
 .footer-address {
-    /* outline: 2px solid rgb(98, 0, 128);  */
+  /* outline: 2px solid rgb(98, 0, 128);  */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 400;
@@ -410,10 +413,10 @@ outline: 1px solid #ECECEC;
   color: #2196f3;
 }
 .mail {
-padding-bottom: 9px;
+  padding-bottom: 9px;
 }
 .about-address {
-      /* outline: 2px solid rgb(2, 0, 128);  */
+  /* outline: 2px solid rgb(2, 0, 128);  */
   color: var(--second-accent-color);
   font-weight: 400;
   font-size: 14px;
@@ -423,16 +426,18 @@ padding-bottom: 9px;
   margin-bottom: 9px;
 }
 .footer-item {
-  padding-bottom: 60px;
- 
 }
 
 /* --------------Портфолио--------------- *
 /* ------------- Наши работы ----------*/
+.our-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-link {
   display: flex;
   margin: 0 auto;
-  margin-top: 90px;
 }
 .button-item {
   display: block;
@@ -479,7 +484,7 @@ padding-bottom: 9px;
   margin: 0 auto;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 64px;
+
   align-items: center;
   /* outline: 2px solid rgb(3, 248, 15); */
   /* margin-left: -30px; */
@@ -489,7 +494,7 @@ padding-bottom: 9px;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  outline: 1px solid #EEEEEE;
+  outline: 1px solid #eeeeee;
 }
 
 .project-title {
