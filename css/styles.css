@@ -231,9 +231,10 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
 }
-.section {
-  padding-bottom: 94px;
+.section-feature {
+  /* padding-bottom: 94px; */
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature {
@@ -303,12 +304,13 @@ body {
 }
 .command {
   display: flex;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   /* width: 270px; */
 }
 
 .command-item {
   margin: 0 auto;
+  margin-bottom: 50px;
 
   /* width: 376px; */
   color: var(--title-text-color);
@@ -412,8 +414,8 @@ body {
 .footer-nav .link:focus {
   color: #2196f3;
 }
-.mail {
-  padding-bottom: 9px;
+.footer-link {
+  margin-bottom: 9px;
 }
 .about-address {
   /* outline: 2px solid rgb(2, 0, 128);  */
@@ -438,13 +440,13 @@ body {
 .button-link {
   display: flex;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .button-item {
   display: block;
   height: 38px;
   min-width: 29px;
   padding-top: 6px;
-  margin-bottom: 50px;
 }
 
 .button-link .button-item + .button-item {
